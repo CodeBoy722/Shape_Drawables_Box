@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background" android:height="50dp">
+        <shape>
+            <gradient
+                android:startColor="@color/skyblue"
+                android:centerColor="@color/colorPrimary"
+                android:endColor="@color/orange"
+                android:angle="270" />
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+
+    <!-- add another layer to design more etc -->
+<!--    <item android:id="@android:id/progress" android:height="10dp">-->
+<!--        <clip>-->
+<!--            <shape>-->
+<!--                <gradient-->
+<!--                    android:startColor="@color/skyblue"-->
+<!--                    android:centerColor="@color/colorPrimary"-->
+<!--                    android:centerY="1.0"-->
+<!--                    android:endColor="@color/orange"-->
+<!--                    android:angle="270"-->
+<!--                    />-->
+<!--            </shape>-->
+<!--        </clip>-->
+<!--    </item>-->
+
+</layer-list>

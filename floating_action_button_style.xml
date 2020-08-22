@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    redesign with your own drawables to fit your taste-->
+    <item>
+        <shape
+            android:shape="oval">
+            <gradient
+                android:type="linear"
+                android:angle="45"
+                android:startColor="@color/colorPrimaryDark"
+                android:centerColor="@color/colorPrimary"
+                android:endColor="@color/skyblue" />
+            <size
+                android:width="56dp"
+                android:height="56dp" />
+        </shape>
+    </item>
+
+    <item android:gravity="center">
+        <bitmap android:src="@drawable/ic_rim"
+            android:gravity="center" />
+    </item>
+
+</layer-list>
